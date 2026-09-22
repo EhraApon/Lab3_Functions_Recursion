@@ -46,7 +46,7 @@ def classify_status(avg_val):
         return "OPTIMAL"
 
 LAST_NAME = "APON"
-SEED_NUM = 4
+SEED_NUM = 6
 FAVORITE_ARTIST = "TEETEEPOR"
 
 name_factor = len(LAST_NAME)
@@ -75,7 +75,7 @@ print("=" * 40)
 print(f"Total Readings: {len(raw_readings)}")
 print(f"Valid Readings: {valid_data}")
 print(f"Invalid Readings: {invalid_data}")
-print("Average reading: {round(avg_reading, 2)}")
+print(f"Average Reading: {round(avg_reading, 2)}")
 print(f"Peak Reading: {round(max_reading, 2)}")
 print(f"Minimum Reading: {round(min_reading, 2)}")
 print(f"Equipment Status: {status}")

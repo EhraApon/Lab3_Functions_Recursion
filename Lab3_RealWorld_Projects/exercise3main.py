@@ -1,7 +1,7 @@
 import exercise3 as tp
 
 LAST_NAME = "APON"
-SEED_NUM = 4
+SEED_NUM = 6
 FAVORITE_ARTIST = "TEETEEPOR"
 
 NAME_LENGTH = len(LAST_NAME)
